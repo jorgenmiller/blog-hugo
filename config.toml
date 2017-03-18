@@ -1,4 +1,4 @@
-baseurl             = "https://jorgenmiller.surge.sh/"
+baseurl             = "https://jorgenmiller.github.io/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
