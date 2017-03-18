@@ -1,0 +1,42 @@
+baseurl             = "https://jorgenmiller.surge.sh/"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+author              = "Jørgen Miller"
+title               = "Jørgen Miller"
+pygmentsuseclasses  = true
+# disqusshortname     = "jorgenmiller" # Comment out to disable Disqus.
+pluralizelisttitles = false
+# googleAnalytics     = "UA-123-45"
+
+[permalinks]
+fixed = ":title/"
+blog  = "blog/:slug/"
+
+[params]
+author                 = "Jørgen Miller"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "Jan 2, 2006"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Exploits with robots."
+email                  = "jorgenmiller@gmail.com"
+# extracssfiles          = [ "/override.css" ]       # In your `static` directory, add/remove files as necessary.
+faviconfile            = "img/favicon.ico"
+# github                 = "//github.com/jorgenmiller"
+highlightjs            = true
+lang                   = "en"
+linkedin               = "https://www.instagram.com/look_at_legos/"
+noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
+selfintro              = ""                            # appears in the site header when set to a non-empty string
+# twitter                = "//twitter.com/you"
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+
+avatar                 = "dupso.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # do not use in the same time as avatar
+
+# The following are DEPRECATED.
+# gatracker              = "XYZ" # use googleAnalytics instead
+# initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
