@@ -11,6 +11,7 @@ Robotic Arms are fun to build and can complete many different tasks. For a full 
 Six servos can be a lot of motors to control. Sometimes it is excessive. In my [Science Fair project in 2017](https://jorgenmiller.github.io/blog/science-fair-2017/), there was not a need to move upwards. Also, NXT can only support three motors (without brick-to-brick communication). I made a design that requires only three motors to move the end of the arm in a two dimensional plane.
 
 This Lego arm is controlled by only three motors. This design functions when the arm makes a triangle where
+
 - Two side lengths stay the same, but not necessarily equivalent
 - the two base angles are free to rotate
 - the top angle is controlled by a servo
@@ -27,3 +28,5 @@ In total, the arm would rotate its base with one motor, extend the end of the ar
 Here is a Lego Arm that I built that functions using this principle.
 
 ![Three motors in a Lego arm](/blog_imgs/threemotorarm.jpg)
+
+This arm only uses three motors and has two joints that are free to rotate.

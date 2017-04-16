@@ -27,3 +27,8 @@ draft = true
 
 - cd; cd Projects; cd blog-hugo; cat config.toml
 - Edit in atom
+
+**commits**
+- git add -A
+- git commit -m "wrote some new shitty posts"
+- git push
