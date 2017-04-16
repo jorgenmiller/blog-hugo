@@ -24,7 +24,7 @@ dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Exploits with robots."
 email                  = "jorgen.j.miller@gmail.com"
 # extracssfiles          = [ "/override.css" ]       # In your `static` directory, add/remove files as necessary.
-faviconfile            = "img/favicon.ico"
+faviconfile            = "img/car.jpg"
 # github                 = "//github.com/jorgenmiller"
 highlightjs            = true
 lang                   = "en"
@@ -34,7 +34,7 @@ selfintro              = ""                            # appears in the site hea
 # twitter                = "//twitter.com/you"
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 
-avatar                 = "dupso.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+avatar                 = "profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # do not use in the same time as avatar
 
 # The following are DEPRECATED.
