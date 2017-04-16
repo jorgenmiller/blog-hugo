@@ -8,7 +8,7 @@ publishdir          = "public"
 author              = "Jørgen Miller"
 title               = "Jørgen Miller"
 pygmentsuseclasses  = true
-# disqusshortname     = "jorgenmiller" # Comment out to disable Disqus.
+disqusshortname     = "jorgenmiller" # Comment out to disable Disqus.
 pluralizelisttitles = false
 # googleAnalytics     = "UA-123-45"
 
@@ -22,7 +22,7 @@ cachebuster            = true                          # add the current unix ti
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Exploits with robots."
-email                  = "jorgenmiller@gmail.com"
+email                  = "jorgen.j.miller@gmail.com"
 # extracssfiles          = [ "/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/favicon.ico"
 # github                 = "//github.com/jorgenmiller"
