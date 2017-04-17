@@ -18,7 +18,7 @@ If you want to take apart an XL motor, for modding or curiosity, the dark gray t
 
 Then, pop off the top. Squeezing the sides and pulling will work, but a screw driver can help to remove it easily.
 
-![push it out with a screw driver](/blog_imgs/XLdeconstruction.jpg)
+![push it out with a screw driver](/blog_imgs/XLdeconstruct.jpg)
 
 There is an electric motor and a planetary gear reduction system inside.
 
