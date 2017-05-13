@@ -20,3 +20,8 @@ There are a few programming alternatives.
 
 
 [ICON](http://www.teamhassenplug.org/NXT/ICON/)
+
+
+**Update:**
+
+The [BrickPi](https://www.dexterindustries.com/brickpi/) is a great way to motorize LEGOs! It can use Python, Scratch, or C to control NXT motors and could be modded to control any dc motor. Although they require a Raspberry Pi and are a little expensive, the BrickPi is a great way to control your motors.
