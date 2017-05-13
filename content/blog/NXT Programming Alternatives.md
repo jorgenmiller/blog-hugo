@@ -8,9 +8,9 @@ NXT mindstorms are Lego compatible motors and sensors that are controlled by an 
 
 Personally, I do not like NXT-G.
 
-- 1 reasons
-- 2
-- 3
+- drag and drop takes a long time
+- the way to connect blocks in the program is unusual and difficult to understand
+- it is unfamiliar to me
 
 There are a few programming alternatives.
 
