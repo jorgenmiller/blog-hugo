@@ -24,16 +24,16 @@ There is an electric motor and a planetary gear reduction system inside.
 
 ![elctric motor and gear reduction and the casing](/blog_imgs/XLinsides.jpg)
 
-The electric motor inside is what powers the XL motor. The electric motor has capacitors on the bottom that gain energy when the motor is forcefully stopped, and then releases it to turn the motor with more power.
+The electric motor inside is what powers the XL motor. The electric motor has caps on the bottom. They may be capacitors, noise reduction caps, or for regenerative braking. If they are capacitors, they would gain energy when the motor is forcefully stopped, and then releases it to turn the motor with more power. Noise reduction and regenrative caps would do exactly as they sound like they would.
 
 ![bottom of electric motor](/blog_imgs/XLelectricmotor.jpg)
 
-The planetary gear reduction slows the output of the electric motor and gives the whole motor more torque. However, the gearing adds a lot of friction. The motor would spin faster and should be a little bit more efficient without the reduction.
+The planetary gear reduction slows the output of the electric motor and gives the whole motor more torque. However, the gearing adds some friction. The motor would spin faster and should be a little bit more efficient without the reduction.
 
 ![the planetary gear reduction system](/blog_imgs/planetary.jpg)
 
 To mod the XL motor, removing the two bumps on the bottom of the planetary casing would allow the whole system to rotate, with a little bit less friction. Another way would be to glue the gears to the carrier and shave off the teeth on the outer side so that the carrier and gears rotate with the motor, but without touching the ring gear in the casing.
 
-Before modding, make sure to have a plan, have the correct tools, and keep in mind that it may fail. With the XL motor, modding will only slightly improve the motor's performance.
+Before modding, make sure to have a plan, have the correct tools, and keep in mind that it may fail. With the XL motor, modding will only slightly improve the motor's efficiency.
 
 [Here is some helpful information and comparisons of Lego motors.](http://www.philohome.com/motors/motorcomp.htm)
