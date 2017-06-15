@@ -6,7 +6,9 @@ title = "The BrickPi and Motor Control"
 
 Here is a python program that I made for the BrickPi. The purpose is to get input from the right joystick and give output with the motors. The speed of motor B is controlled by the x position of the right joystick and the speed of motor c is controlled by the y position of the right joystick. The joysticks give values between 0 and 32,500 It also has the ability to quit the program if the mode button is pressed. On my logitech F310 gamepad, that is the center button labeled logitech.
 
-The main difficulty I had when trying to make this program was reading the gamepad and instructing the BrickPi simultaneously. The gamepad uses a loop where it waits for an input, but the BrickPi needs to loop to run the motors. The gamepad loop blocks the BrickPi, but this program uses threading to do both.
+The program uses inputs 0.1 to read the gamepad. Use `pip install inputs` to get it. Once installed, `get_gamepad()` may work properly, but you may need to edit it. you can find the name of your gamepad by looking in `/dev/input`.
+
+The main difficulty I had when trying to make this program was reading the gamepad and instructing the BrickPi simultaneously. The gamepad uses a loop where it waits for an input, but the BrickPi needs to loop to run the motors. The gamepad loop normally blocks the BrickPi, but this program uses threading to do both.
 
 ~~~~python
 from inputs import get_gamepad    #input from gamepad

@@ -22,4 +22,4 @@ while True:   #needs to be repeated
   BrickPiUpdateValues()   #update states with the BrickPi
 ~~~~
 
-The commands for sensors are similar. The examples show each command and what kind of  input each sensor has.
+The commands for sensors are similar. The examples on the SD card show each command and what kind of  input each sensor has.
