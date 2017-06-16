@@ -18,7 +18,7 @@ BrickPi.MotorEnable[PORT_A] = 1   #initiate motor A
 
 BrickPi.MotorSpeed[PORT_A] = 255    #motor A state to max speed
 
-while True:   #needs to be repeated
+while True:   #this needs to be repeated
   BrickPiUpdateValues()   #update states with the BrickPi
 ~~~~
 

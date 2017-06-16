@@ -11,15 +11,15 @@ The program uses inputs 0.1 to read the gamepad. Use `pip install inputs` to get
 The main difficulty I had when trying to make this program was reading the gamepad and instructing the BrickPi simultaneously. The gamepad uses a loop where it waits for an input, but the BrickPi needs to loop to run the motors. The gamepad loop normally blocks the BrickPi, but this program uses threading to do both.
 
 ~~~~python
-from inputs import get_gamepad    #input from gamepad
-from BrickPi import *   #for the BrickPi
-import threading    #for threading
+from inputs import get_gamepad
+from BrickPi import *
+import threading
 
-BrickPiSetup()   #it is always necessary to setup the BrickPi
-BrickPi.MotorEnable[PORT_B] = 1   #enable motor B
-BrickPi.MotorEnable[PORT_C] = 1   #enable motor C
+BrickPiSetup()
+BrickPi.MotorEnable[PORT_B] = 1   #uses motors B and C
+BrickPi.MotorEnable[PORT_C] = 1
 
-quitting = False    #make a variable for quitting
+quitting = False
 
 def gamepad():    #make a thread for the gamepad
     while True:   #stay in the thread
@@ -28,17 +28,17 @@ def gamepad():    #make a thread for the gamepad
                 BrickPi.MotorSpeed[PORT_B] = event.state / 128  #B moves 0-255
             elif event.code == "ABS_RY":    #right joystick moved (y axis)
                 BrickPi.MotorSpeed[PORT_C] = event.state / 128  #motor C moves
-            elif event.code == "BTN_MODE":    #if quit pressed
+            elif event.code == "BTN_MODE":    #quit pressed
                 print "quitting"    
                 global quitting   #a global variable
-                quitting = True   #change quitting
+                quitting = True
                 return    #exit thread
 
 gamepad = threading.Thread(target = gamepad)    #simplify name
 gamepad.start()   #start thread
 
-while True:   #BrickPi loop in main thread
+while True:   #BrickPi loop is in main thread
     BrickPiUpdateValues()   #update to run motors
-    if quitting == True:    #if quit pressed
+    if quitting == True:
         sys.exit()    #quit
 ~~~~
