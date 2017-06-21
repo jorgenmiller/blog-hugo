@@ -17,24 +17,24 @@ from inputs import get_gamepad
 from BrickPi import *
 import threading
 
-BrickPiSetup()
-BrickPi.MotorEnable[PORT_A] = 1
+BrickPiSetup()    #enable serial connection with BrickPi
+BrickPi.MotorEnable[PORT_A] = 1   #enable motors
 BrickPi.MotorEnable[PORT_B] = 1
 BrickPi.MotorEnable[PORT_C] = 1
 BrickPi.MotorEnable[PORT_D] = 1
 
-quitting = False
+quitting = False    #make variable quitting
 
-def gamepad():
+def gamepad():    #a thread to read gamepad input
     while True:
         for event in get_gamepad():
-            if event.code == "ABS_Y":
+            if event.code == "ABS_Y":   #run motors based on joysticks
                 BrickPi.MotorSpeed[PORT_A] = event.state / -128
                 BrickPi.MotorSpeed[PORT_B] = event.state / 128
             elif event.code == "ABS_RY":
                 BrickPi.MotorSpeed[PORT_C] = event.state / 128
                 BrickPi.MotorSpeed[PORT_D] = event.state / -128
-            elif event.code == "BTN_MODE":
+            elif event.code == "BTN_MODE":    #quit
                 global quitting
                 quitting = True
                 return
@@ -43,7 +43,7 @@ gamepad = threading.Thread(target = gamepad)
 gamepad.start()
 
 while True:
-    BrickPiUpdateValues()
+    BrickPiUpdateValues()   #update to run motors
     if quitting == True:
-        sys.exit()
+        sys.exit()    #full quit
 ~~~~
