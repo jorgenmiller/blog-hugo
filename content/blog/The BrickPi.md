@@ -4,7 +4,7 @@ title = "The BrickPi"
 
 +++
 
-![The BrickPi](/blog_imgs/.jpg)
+![The BrickPi](/blog_imgs/brickpi.jpg)
 
 The BrickPi is an attachment from Dexter Industries for the Raspberry Pi that allows the Pi to easily use NXT motors and sensors. It can control four NXT motors and get input from four NXT sensors. It fits on top of a Pi and comes with a lego compatible case to protect it and the Pi. The BrickPi can be bought online at [DexterIndustries.com](https://www.dexterindustries.com/) and instructions to get the BrickPi SD card iamge can be found [here](https://www.dexterindustries.com/howto/install-raspbian-for-robots-image-on-an-sd-card/).
 
