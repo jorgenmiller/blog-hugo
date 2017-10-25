@@ -14,7 +14,7 @@ For the front end, this should be included in the html.
 
 ~~~~html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
-<script src="controller.js"></script>
+<script src="<js file>"></script>
 ~~~~
 
 The javascript should specify what IP address it should send to, and what port.

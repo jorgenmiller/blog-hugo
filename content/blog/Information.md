@@ -31,5 +31,5 @@ draft = true
 
 **commits**
 - git add -A
-- git commit -m "wrote some new shitty posts"
+- git commit -m "wrote some new posts"
 - git push
