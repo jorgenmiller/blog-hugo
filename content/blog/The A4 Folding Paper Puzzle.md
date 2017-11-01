@@ -1,5 +1,5 @@
 +++
-date = "2017-10-31"
+date = "2017-10-24"
 title = "The A4 Paper Folding Puzzle"
 +++
 
