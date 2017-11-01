@@ -1,7 +1,6 @@
 +++
 date = "2017-10-24"
 title = "The A4 Paper Folding Puzzle Solution"
-draft = true
 +++
 
 Here is the shape.
