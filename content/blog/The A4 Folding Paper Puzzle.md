@@ -11,8 +11,8 @@ To setup the puzzle, we must fold the paper a bit. Fold one of the shorter sides
 
 ![Fold to make a big 45 degree triangle and a smaller 45 degree triangle](/blog_imgs/A4pic02.jpg)
 
-![The resulting shape](/blog_imgs/A4pic03.jpg)
-
 Now, the puzzle. What is the perimeter of this shape that is made?
+
+![The resulting shape](/blog_imgs/A4pic03.jpg)
 
 I suggest trying to solve it for yourself! When you are done (or if you are just lazy), [here is the solution](https://jorgenmiller.github.io/blog/the-a4-paper-folding-puzzle-solution).
