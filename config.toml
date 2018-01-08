@@ -8,7 +8,7 @@ publishdir          = "public"
 author              = "Jørgen Miller"
 title               = "Jørgen Miller"
 pygmentsuseclasses  = true
-disqusshortname     = "jorgenmiller" # Comment out to disable Disqus.
+disqusshortname     = "jorgenm" # Comment out to disable Disqus.
 pluralizelisttitles = false
 # googleAnalytics     = "UA-123-45"
 
