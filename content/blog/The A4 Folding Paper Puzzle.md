@@ -15,4 +15,4 @@ Now, the puzzle. What is the perimeter of this shape that is made?
 
 ![The resulting shape](/blog_imgs/A4pic03.jpg)
 
-I suggest trying to solve it for yourself! When you are done (or if you are just lazy), [here is the solution](https://jorgenmiller.github.io/blog/the-a4-paper-folding-puzzle-solution).
+I suggest trying to solve it for yourself! When you are done (or if you are just lazy), [here is the solution](/blog/the-a4-paper-folding-puzzle-solution).

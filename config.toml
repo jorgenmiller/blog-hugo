@@ -1,4 +1,4 @@
-baseurl             = "https://jorgenmiller.github.io/"
+baseurl             = ""
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
@@ -25,7 +25,7 @@ description            = "Exploits with robots."
 email                  = "jorgen.j.miller@gmail.com"
 # extracssfiles          = [ "/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/favicon.ico"
-# github                 = "//github.com/jorgenmiller"
+github                 = "//github.com/jorgenmiller"
 highlightjs            = true
 lang                   = "en"
 linkedin               = "https://www.instagram.com/look_at_legos/"
@@ -34,7 +34,7 @@ selfintro              = ""                            # appears in the site hea
 # twitter                = "//twitter.com/you"
 # highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
 
-avatar                 = "profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""
     # do not use in the same time as avatar
 
